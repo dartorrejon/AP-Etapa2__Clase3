@@ -10,8 +10,8 @@ const Menu = () => {
                 <a href="/">Contacto</a>
 
                 <div className='Icons'>
-                <a href="/"><i class="fa-regular fa-bell"></i></a>
-                <a href='/'><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="/"><i className="fa-regular fa-bell"></i></a>
+                <a href='/'><i className="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </nav>
         </>

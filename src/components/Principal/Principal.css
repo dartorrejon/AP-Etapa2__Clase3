@@ -1,0 +1,18 @@
+.Principal{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    padding: 0 2em;
+}
+
+.img-container {
+   display: grid;
+    place-items: center;
+   width: 80%;    
+}
+
+.img-container > img{
+    width: 40vw;
+    min-width: 300px;
+}

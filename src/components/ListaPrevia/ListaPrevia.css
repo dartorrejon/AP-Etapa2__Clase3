@@ -1,0 +1,15 @@
+.listaPrevias{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.listaPrevias > a{
+    padding: 3px;
+    border-radius: 6px;
+    transition: outline 0.05s ease-in-out;
+}
+.listaPrevias > a:hover{
+    outline: 2px solid #3a86f3;
+}

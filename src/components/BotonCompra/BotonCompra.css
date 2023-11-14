@@ -1,0 +1,12 @@
+.BotonCompra{
+    background-color:  #44b3ba ;
+    border: none;
+    border-radius: 6px;
+    height: 50px;
+    transition: background-color .3s ease-in-out;
+    font-weight: bold;
+    font-size: .9em;
+}
+.BotonCompra:hover{
+    background-color: #3a9ca3;
+}

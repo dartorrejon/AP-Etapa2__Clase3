@@ -1,0 +1,38 @@
+.Search-container{
+    position: relative;
+    background-color: #fff;
+    width: 40rem;
+    height: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+}
+
+.fa-magnifying-glass{
+    color: gray;
+}
+
+.Search-container input{
+    border: none;
+    outline: none;
+    width: 93%;
+    height: 100%;
+    font-size: .8rem;
+    background-color: transparent;
+    color: #000;
+}
+
+.Search-container span::before {
+    content: '';
+    position: absolute;
+    top: .3em;
+    bottom: 0.3rem;
+    right: 3em;
+    width: 1px; 
+    background-color: gray;
+    opacity: .2;
+  }
