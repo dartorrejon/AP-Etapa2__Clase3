@@ -10,11 +10,13 @@
    display: grid;
    place-items: center;
    width:100%;
+   padding-left: 7em;
    
 }
 
 .img-container > img{
-    width: 25em;
+    display: inherit;
+    width: 35em;
     min-width: 300px;
     height: auto;
 }

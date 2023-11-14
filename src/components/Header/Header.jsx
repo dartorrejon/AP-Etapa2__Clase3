@@ -13,7 +13,6 @@ const Header = (props) => {
     return (
         
         <>
-
             <header className='Header'>
                 <img src={logo} alt="logo" />
                 <SearchBar />

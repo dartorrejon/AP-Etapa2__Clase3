@@ -5,7 +5,7 @@ import Aside from './components/Aside/Aside'
 import Footer from './components/Footer/Footer'
 import imgFulls from '../public/full/imgFulls'
 import imgPreviews from '../public/preview/imgPreviews'
-import Hamburguesa from './components/Hamburguesa/Hamburguesa'
+
 
 function App() {
  
@@ -19,7 +19,6 @@ function App() {
 
   return (
     <>
-
       <Header/>
       <main className='MainPreview'>
       <Principal listaPrevia={imgPreviews} fullImages={imgFulls}/>
