@@ -21,6 +21,8 @@ body{
   height: 100vh;
   height: 100dvh; 
   width: 100vw;
+  min-height: 900px;
+  min-width: 1280px;
   
 }
 #root{
@@ -29,7 +31,53 @@ body{
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  gap: 20px;
+  gap: 10px;
 }
 
+@media screen and (max-width: 576px){
+  body{
+    min-width: 100vw;
+    height: auto;
+  }
+  .Header{
+    padding: 0 1rem;
+  }
+  .Menu > a{
+    display: none;
+  }
+  
+  .Search-container > input{
+    width: 10em;
+  }
+.MainPreview{
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
+  padding-top: 250px;
+}
+.listaPrevias{
+display: none;
 
+}
+.img-container{
+ position: absolute;
+  width: 300px;
+  top: 20px;
+  left: 50%;
+  right: 50%;
+  transform: translate(-40%, 0);
+}
+.img-container > img{
+  width: 4em;
+  padding-right: 8em;
+  margin-right: 300px;
+  text-align: center;
+}
+ 
+}
+@media screen and (min-width: 577px) and (max-width:768px){}
+.img-container > img{
+  padding-right: 4em;
+}

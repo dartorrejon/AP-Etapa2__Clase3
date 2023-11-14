@@ -5,8 +5,8 @@
 
 .Articulo{
     color: #000;
-
 }
+
 .vendidos{
     color: var(--letra-secuntaria);
     font-size:.8em;
@@ -16,7 +16,7 @@
 .nombreArticulo{
     position: relative;
     width: 90%;
-    text-align: center;
+    text-align: left;
     font-size: 2.3em;
 }
 .nombreArticulo > span{
@@ -36,7 +36,8 @@
 
  .Descripcion{
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.2em;
+    font-style: italic;
  }
 
  .fa-star{

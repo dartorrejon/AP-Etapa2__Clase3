@@ -11,7 +11,7 @@ const Header = (props) => {
 
     const nombre = "Rodrigo"
     return (
-        //jsx -> js vanilla && xml
+        
         <>
 
             <header className='Header'>

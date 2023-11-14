@@ -17,11 +17,10 @@ const ListaPrevia = ({ listaPrevia, actualizarIndice }) => {
             <section className='listaPrevias'>
                 {
                     valores.map((previa, index) => {
-                        {console.log(previa)}
                         return (
                             
                             <a href="#" className='previa' key={index} onMouseOver={() => handleMouseOver(index)}>
-                                <img src={previa} alt="previa" />
+                                <img className="micro" src={previa} alt="previa" />
                             </a>
                         )
                     })

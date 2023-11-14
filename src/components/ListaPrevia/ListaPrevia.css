@@ -1,8 +1,12 @@
 .listaPrevias{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 15px;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 20px 0;
+   
+    
+    
 }
 
 .listaPrevias > a{
@@ -13,3 +17,8 @@
 .listaPrevias > a:hover{
     outline: 2px solid #3a86f3;
 }
+
+.micro{
+    height: 4em;
+}
+
